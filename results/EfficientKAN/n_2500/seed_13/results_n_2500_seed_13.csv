@@ -1,0 +1,22 @@
+Fault,Type,Disturbed Value,Detection Time,F1,FDR,Recall,Precision,FPR,FNR
+IDV 3,Step,D feed (stream 2) temperature,66,0.060240963855421686,0.03125,0.03125,0.8333333333333334,0.03125,0.96875
+IDV 9,Random,D feed (stream 2) temperature,198,0.07838479809976247,0.04125,0.04125,0.7857142857142857,0.05625,0.95875
+IDV 15,Stiction,Cooling water outlet valve of separator,177,0.11943793911007027,0.06375,0.06375,0.9444444444444444,0.01875,0.93625
+IDV 4,Step,Cooling water inlet temperature of reactor,162,0.9987515605493134,1.0,1.0,0.9975062344139651,0.0125,0.0
+IDV 5,Step,Cooling water inlet temperature of separator,162,0.9987515605493134,1.0,1.0,0.9975062344139651,0.0125,0.0
+IDV 7,Step,C header pressure loss (stream 4),33,0.9981285090455396,1.0,1.0,0.9962640099626401,0.01875,0.0
+IDV 1,Step,"A/C-ratio of stream 4, B composition constant",90,0.995627732667083,0.99625,0.99625,0.9950062421972534,0.025,0.00375
+IDV 2,Step,"B composition of stream 4, A/C-ratio constant",72,0.9912060301507537,0.98625,0.98625,0.9962121212121212,0.01875,0.01375
+IDV 6,Step,A feed loss (stream 1),114,0.9975062344139651,1.0,1.0,0.9950248756218906,0.025,0.0
+IDV 8,Random,A/B/C composition of stream 4,162,0.9892744479495268,0.98,0.98,0.9987261146496815,0.00625,0.02
+IDV 10,Random,C feed (stream 4) temperature,495,0.92904953145917,0.8675,0.8675,1.0,0.0,0.1325
+IDV 11,Random,Cooling water inlet temperature of reactor,69,0.7976011994002998,0.665,0.665,0.9962546816479401,0.0125,0.335
+IDV 12,Random,Cooling water inlet temperature of separator,465,0.995,0.995,0.995,0.995,0.025,0.005
+IDV 13,Drift,Reaction kinetics,114,0.9738019169329073,0.9525,0.9525,0.996078431372549,0.01875,0.0475
+IDV 14,Stiction,Cooling water outlet valve of reactor,330,0.9993753903810119,1.0,1.0,0.9987515605493134,0.00625,0.0
+IDV 16,Random,(unknown); deviations of heat transfer within stripper,78,0.9371727748691099,0.895,0.895,0.9835164835164835,0.075,0.105
+IDV 17,Random,(unknown); deviations of heat transfer within reactor,192,0.9525666016894087,0.91625,0.91625,0.9918809201623816,0.0375,0.08375
+IDV 18,Random,(unknown); deviations of heat transfer within condenser,117,0.9441157133464826,0.8975,0.8975,0.9958391123439667,0.01875,0.1025
+IDV 19,Stiction,"(unknown); recycle valve, underflow separator/stripper",411,0.9212121212121213,0.855,0.855,0.9985401459854014,0.00625,0.145
+IDV 20,Random,(unknown),687,0.8380537400145243,0.72125,0.72125,1.0,0.0,0.27875
+IDV 21,Random,(unknown),42,0.6273504273504273,0.45875,0.45875,0.9918918918918919,0.01875,0.54125
