@@ -1,0 +1,22 @@
+Fault,Type,Disturbed Value,Detection Time,F1,FDR,Recall,Precision,FPR,FNR
+IDV 3,Step,D feed (stream 2) temperature,552,0.03198031980319803,0.01625,0.01625,1.0,0.0,0.98375
+IDV 9,Random,D feed (stream 2) temperature,330,0.012391573729863695,0.00625,0.00625,0.7142857142857143,0.0125,0.99375
+IDV 15,Stiction,Cooling water outlet valve of separator,1650,0.14385150812064967,0.0775,0.0775,1.0,0.0,0.9225
+IDV 4,Step,Cooling water inlet temperature of reactor,222,0.9987515605493134,1.0,1.0,0.9975062344139651,0.0125,0.0
+IDV 5,Step,Cooling water inlet temperature of separator,222,0.8443804034582133,0.7325,0.7325,0.9965986394557823,0.0125,0.2675
+IDV 7,Step,C header pressure loss (stream 4),480,1.0,1.0,1.0,1.0,0.0,0.0
+IDV 1,Step,"A/C-ratio of stream 4, B composition constant",489,0.9981214777708203,0.99625,0.99625,1.0,0.0,0.00375
+IDV 2,Step,"B composition of stream 4, A/C-ratio constant",516,0.9924433249370278,0.985,0.985,1.0,0.0,0.015
+IDV 6,Step,A feed loss (stream 1),480,1.0,1.0,1.0,1.0,0.0,0.0
+IDV 8,Random,A/B/C composition of stream 4,537,0.9879822896900696,0.97625,0.97625,1.0,0.0,0.02375
+IDV 10,Random,C feed (stream 4) temperature,561,0.774885145482389,0.6325,0.6325,1.0,0.0,0.3675
+IDV 11,Random,Cooling water inlet temperature of reactor,495,0.8497483824586628,0.73875,0.73875,1.0,0.0,0.26125
+IDV 12,Random,Cooling water inlet temperature of separator,486,0.9937106918238994,0.9875,0.9875,1.0,0.0,0.0125
+IDV 13,Drift,Reaction kinetics,615,0.9710610932475884,0.94375,0.94375,1.0,0.0,0.05625
+IDV 14,Stiction,Cooling water outlet valve of reactor,480,1.0,1.0,1.0,1.0,0.0,0.0
+IDV 16,Random,(unknown); deviations of heat transfer within stripper,399,0.736842105263158,0.595,0.595,0.967479674796748,0.1,0.405
+IDV 17,Random,(unknown); deviations of heat transfer within reactor,543,0.9562948467058057,0.91625,0.91625,1.0,0.0,0.08375
+IDV 18,Random,(unknown); deviations of heat transfer within condenser,720,0.9452867501647989,0.89625,0.89625,1.0,0.0,0.10375
+IDV 19,Stiction,"(unknown); recycle valve, underflow separator/stripper",510,0.1566820276497696,0.085,0.085,1.0,0.0,0.915
+IDV 20,Random,(unknown),681,0.6520640269587195,0.48375,0.48375,1.0,0.0,0.51625
+IDV 21,Random,(unknown),1248,0.5714285714285715,0.4,0.4,1.0,0.0,0.6

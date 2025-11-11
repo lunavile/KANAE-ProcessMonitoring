@@ -1,0 +1,22 @@
+Fault,Type,Disturbed Value,Detection Time,F1,FDR,Recall,Precision,FPR,FNR
+IDV 3,Step,D feed (stream 2) temperature,720,0.06529625151148731,0.03375,0.03375,1.0,0.0,0.96625
+IDV 9,Random,D feed (stream 2) temperature,312,0.031363088057901084,0.01625,0.01625,0.4482758620689655,0.1,0.98375
+IDV 15,Stiction,Cooling water outlet valve of separator,1200,0.1566820276497696,0.085,0.085,1.0,0.0,0.915
+IDV 4,Step,Cooling water inlet temperature of reactor,480,1.0,1.0,1.0,1.0,0.0,0.0
+IDV 5,Step,Cooling water inlet temperature of separator,480,0.8787666433076383,0.78375,0.78375,1.0,0.0,0.21625
+IDV 7,Step,C header pressure loss (stream 4),480,1.0,1.0,1.0,1.0,0.0,0.0
+IDV 1,Step,"A/C-ratio of stream 4, B composition constant",489,0.9981214777708203,0.99625,0.99625,1.0,0.0,0.00375
+IDV 2,Step,"B composition of stream 4, A/C-ratio constant",516,0.9924433249370278,0.985,0.985,1.0,0.0,0.015
+IDV 6,Step,A feed loss (stream 1),381,0.9993753903810119,1.0,1.0,0.9987515605493134,0.00625,0.0
+IDV 8,Random,A/B/C composition of stream 4,525,0.9879822896900696,0.97625,0.97625,1.0,0.0,0.02375
+IDV 10,Random,C feed (stream 4) temperature,576,0.8174427198817442,0.69125,0.69125,1.0,0.0,0.30875
+IDV 11,Random,Cooling water inlet temperature of reactor,495,0.8676574663835811,0.76625,0.76625,1.0,0.0,0.23375
+IDV 12,Random,Cooling water inlet temperature of separator,486,0.9937106918238994,0.9875,0.9875,1.0,0.0,0.0125
+IDV 13,Drift,Reaction kinetics,615,0.9710610932475884,0.94375,0.94375,1.0,0.0,0.05625
+IDV 14,Stiction,Cooling water outlet valve of reactor,480,1.0,1.0,1.0,1.0,0.0,0.0
+IDV 16,Random,(unknown); deviations of heat transfer within stripper,522,0.8139362490733877,0.68625,0.68625,1.0,0.0,0.31375
+IDV 17,Random,(unknown); deviations of heat transfer within reactor,192,0.9610894941634242,0.92625,0.92625,0.9986522911051213,0.00625,0.07375
+IDV 18,Random,(unknown); deviations of heat transfer within condenser,720,0.9452867501647989,0.89625,0.89625,1.0,0.0,0.10375
+IDV 19,Stiction,"(unknown); recycle valve, underflow separator/stripper",510,0.4776403425309229,0.31375,0.31375,1.0,0.0,0.68625
+IDV 20,Random,(unknown),681,0.7210231814548361,0.56375,0.56375,1.0,0.0,0.43625
+IDV 21,Random,(unknown),351,0.5489130434782609,0.37875,0.37875,0.9967105263157895,0.00625,0.62125
