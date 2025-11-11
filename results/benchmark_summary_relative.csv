@@ -1,0 +1,11 @@
+Model,Fwd (ms),Fwd acc.,Bwd (ms),Bwd acc.
+EfficientKAN-cpu,2.90 ± 0.04,0.15,2.05 ± 0.03,0.27
+EfficientKAN-gpu,1.20 ± 0.03,0.18,1.03 ± 0.03,0.52
+FastKAN-cpu,0.97 ± 0.03,0.45,1.25 ± 0.04,0.44
+FastKAN-gpu,0.53 ± 0.01,0.40,0.73 ± 0.01,0.73
+FourierKAN-cpu,1.44 ± 0.04,0.30,1.69 ± 0.04,0.33
+FourierKAN-gpu,0.45 ± 0.01,0.47,0.77 ± 0.04,0.70
+OrthogonalAE-cpu,0.44 ± 0.04,1.00,0.55 ± 0.04,1.00
+OrthogonalAE-gpu,0.21 ± 0.01,1.00,0.54 ± 0.02,1.00
+WavKAN-cpu,1.83 ± 0.04,0.24,2.66 ± 0.05,0.21
+WavKAN-gpu,0.64 ± 0.01,0.33,0.86 ± 0.03,0.62
