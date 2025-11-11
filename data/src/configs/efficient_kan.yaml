@@ -1,0 +1,12 @@
+model_name: EfficientKAN
+layers_hidden: [33,25,33]
+grid_size: 3
+spline_order: 2
+scale_noise: 7.4e-3
+scale_base: 1.0
+scale_spline: 1.0
+base_activation: SiLU
+grid_eps: 0.059
+grid_range: [-5, 5]
+regularize_activation: 1.93e-4
+regularize_entropy: 7.73e-4

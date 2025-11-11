@@ -1,0 +1,8 @@
+model_name: FastKAN
+layers_hidden: [33, 25, 33]
+grid_min: -5.
+grid_max: 5.
+num_grids: 5
+use_base_update: True
+base_activation: SiLU
+spline_weight_init_scale: 0.01

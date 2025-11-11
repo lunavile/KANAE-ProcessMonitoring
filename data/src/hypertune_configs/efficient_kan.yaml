@@ -1,0 +1,15 @@
+model_name: EfficientKAN
+
+search_space:
+  regularize_activation: ["loguniform", 1.5e-4, 2e-4]
+  regularize_entropy : ["loguniform", 7.5e-4, 9e-4]
+  scale_noise: ["loguniform", 5e-4, 1e-2]
+  grid_eps: ["loguniform", 1e-3, 0.2]
+  learning_rate: ["loguniform", 5e-4, 5e-3]
+  weight_decay: ["loguniform", 5e-3, 2e-2]
+  scheduler_factor: ["uniform", 0.8, 0.99]
+n_trials: 100  
+
+
+
+

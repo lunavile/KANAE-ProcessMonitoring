@@ -1,0 +1,10 @@
+model_name: WavKAN
+
+search_space:
+  learning_rate: ["loguniform", 5e-4, 5e-3]
+  weight_decay: ["loguniform", 5e-3, 2e-2]
+  scheduler_factor: ["uniform", 0.8, 0.99]
+  wavelet_type: ["categorical", ["mexican_hat", "morlet", "dog", "meyer", "shannon"]]
+n_trials: 100
+
+

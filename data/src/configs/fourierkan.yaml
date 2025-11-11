@@ -1,0 +1,5 @@
+model_name: FourierKAN
+layer_sizes: [33, 25, 33]
+gridsize: 3
+addbias: True
+smooth_initialization: True

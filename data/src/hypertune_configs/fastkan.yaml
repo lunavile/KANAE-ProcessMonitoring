@@ -1,0 +1,9 @@
+model_name: FastKAN
+
+search_space:
+  spline_weight_init_scale: ["loguniform", 0.001, 0.1]
+  num_grids: ["int", 3, 8]
+  learning_rate: ["loguniform", 5e-4, 5e-3]
+  weight_decay: ["loguniform", 5e-3, 2e-2]
+  scheduler_factor: ["uniform", 0.8, 0.99]
+n_trials: 100  

@@ -1,0 +1,8 @@
+model_name: OrthogonalAE
+
+search_space:
+  alpha: ["loguniform", 0.5, 2.0]
+  learning_rate: ["loguniform", 5e-4, 2e-3]
+  weight_decay: ["loguniform", 5e-3, 2e-2]
+  scheduler_factor: ["uniform", 0.8, 0.99]
+n_trials: 100

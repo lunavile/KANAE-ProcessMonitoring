@@ -1,0 +1,12 @@
+model_name: FourierKAN
+
+search_space:
+  gridsize: ["int", 2, 16]
+  learning_rate: ["loguniform", 5e-4, 5e-3]
+  weight_decay: ["loguniform", 5e-3, 2e-2]
+  scheduler_factor: ["uniform", 0.8, 0.99]
+n_trials: 100  
+
+
+
+

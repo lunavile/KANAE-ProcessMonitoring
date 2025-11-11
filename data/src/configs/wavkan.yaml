@@ -1,0 +1,3 @@
+model_name: WavKAN
+layers_hidden: [33, 25, 33]
+wavelet_type: dog
