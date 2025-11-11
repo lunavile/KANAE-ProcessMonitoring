@@ -1,0 +1,22 @@
+Fault,Type,Disturbed Value,Detection Time,F1,FDR,Recall,Precision,FPR,FNR
+IDV 3,Step,D feed (stream 2) temperature,546,0.03680981595092024,0.01875,0.01875,1.0,0.0,0.98125
+IDV 9,Random,D feed (stream 2) temperature,312,0.01486988847583643,0.0075,0.0075,0.8571428571428571,0.00625,0.9925
+IDV 15,Stiction,Cooling water outlet valve of separator,2550,0.12206572769953053,0.065,0.065,1.0,0.0,0.935
+IDV 4,Step,Cooling water inlet temperature of reactor,480,0.0535279805352798,0.0275,0.0275,1.0,0.0,0.9725
+IDV 5,Step,Cooling water inlet temperature of separator,483,0.3983983983983984,0.24875,0.24875,1.0,0.0,0.75125
+IDV 7,Step,C header pressure loss (stream 4),480,1.0,1.0,1.0,1.0,0.0,0.0
+IDV 1,Step,"A/C-ratio of stream 4, B composition constant",498,0.9962358845671266,0.9925,0.9925,1.0,0.0,0.0075
+IDV 2,Step,"B composition of stream 4, A/C-ratio constant",516,0.9924433249370278,0.985,0.985,1.0,0.0,0.015
+IDV 6,Step,A feed loss (stream 1),480,1.0,1.0,1.0,1.0,0.0,0.0
+IDV 8,Random,A/B/C composition of stream 4,522,0.9873417721518987,0.975,0.975,1.0,0.0,0.025
+IDV 10,Random,C feed (stream 4) temperature,651,0.5441310282074614,0.37375,0.37375,1.0,0.0,0.62625
+IDV 11,Random,Cooling water inlet temperature of reactor,498,0.5903083700440529,0.41875,0.41875,1.0,0.0,0.58125
+IDV 12,Random,Cooling water inlet temperature of separator,489,0.9879822896900696,0.97625,0.97625,1.0,0.0,0.02375
+IDV 13,Drift,Reaction kinetics,618,0.9697359948486799,0.94125,0.94125,1.0,0.0,0.05875
+IDV 14,Stiction,Cooling water outlet valve of reactor,480,1.0,1.0,1.0,1.0,0.0,0.0
+IDV 16,Random,(unknown); deviations of heat transfer within stripper,402,0.36726546906187624,0.23,0.23,0.9108910891089109,0.1125,0.77
+IDV 17,Random,(unknown); deviations of heat transfer within reactor,558,0.8834612700628053,0.79125,0.79125,1.0,0.0,0.20875
+IDV 18,Random,(unknown); deviations of heat transfer within condenser,744,0.9417989417989417,0.89,0.89,1.0,0.0,0.11
+IDV 19,Stiction,"(unknown); recycle valve, underflow separator/stripper",978,0.009950248756218907,0.005,0.005,1.0,0.0,0.995
+IDV 20,Random,(unknown),720,0.5572587917042381,0.38625,0.38625,1.0,0.0,0.61375
+IDV 21,Random,(unknown),1248,0.5520361990950226,0.38125,0.38125,1.0,0.0,0.61875
