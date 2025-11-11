@@ -1,0 +1,11 @@
+Model A,Model B,Pleft,Prope,Pright
+OrthogonalAE,EfficientKAN,0.0385,0.0073,0.9542
+OrthogonalAE,FastKAN,0.4978,0.0485,0.4537
+OrthogonalAE,FourierKAN,0.998,0.002,0.0
+OrthogonalAE,WavKAN,0.0163,0.0534,0.9303
+EfficientKAN,FastKAN,0.8821,0.0437,0.0742
+EfficientKAN,FourierKAN,0.9913,0.0037,0.005
+EfficientKAN,WavKAN,0.8962,0.029,0.0749
+FastKAN,FourierKAN,0.9918,0.0019,0.0063
+FastKAN,WavKAN,0.0042,0.0334,0.9624
+FourierKAN,WavKAN,0.0,0.0712,0.9288
