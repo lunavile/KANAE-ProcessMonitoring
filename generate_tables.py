@@ -31,6 +31,7 @@ ordered_faults = [
 def compute_ci(values):
     values = np.asarray(values, dtype=float)
     n = len(values)
+    
     if n < 2:
         # Not enough samples for CI
         mean = np.mean(values) * 100
